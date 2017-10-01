@@ -10,7 +10,7 @@
 </head>
 
 <body>
-	<div class="full-view-height">
+	<div class="full-view-height" id="home">
 		<div class="blur-bg" style="background-image:url(images/bg.jpg); background-size:cover; background-position:center; background-repeat:no-repeat"></div>
 		
 		<div class="uk-position-center">
@@ -23,12 +23,30 @@
 					<button class="btn-1 uk-margin-small-top">Stalk me PLEASE!</button>
 <!--					<button class="uk-button uk-button-default">Stalk me PLEASE!</button>-->
 					<div class="uk-margin-medium-top">
-						<a class="moving-down uk-display-inline-block"><img src="images/arrow-down.png" width="50px"></a>
+						<a href="#about" class="moving-down uk-display-inline-block" uk-scroll><img src="images/arrow-down.png" width="50px"></a>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
+	
+	<div id="mainnavbar" class="uk-navbar-container uk-container uk-container-expand" uk-sticky>
+		<nav class="uk-navbar">
+			<div class="uk-navbar-left">
+				<a class="uk-navbar-item uk-logo" href="#home" uk-scroll><img src="images/fish.png" width="50px" class="uk-margin-small-right">Korby</a>
+			</div>
+			<div class="uk-navbar-right">
+				<ul class="uk-navbar-nav" uk-scrollspy-nav="closest: a; scroll:true">
+					<li><a href="#about">About me</a></li>
+					<li><a href="#sec">Hobbies</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+	
+	<div style="height:500px;background:green" id="about">asdasd</div>
+	<div style="height:1000px;background:red" id="sec">asdasd</div>
 	
 	
 	<script src="js/jquery.min.js"></script>
