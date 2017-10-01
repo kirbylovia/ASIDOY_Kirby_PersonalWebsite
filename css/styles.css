@@ -41,3 +41,37 @@
 	padding: 10px;
 	border-radius: 50%;
 }
+
+
+@keyframes downdown {
+	0 {
+		position: absolute;
+		margin-top: 0;
+	}
+	50% {
+		margin-top: 20px;
+	}
+	100% {
+		margin-top: 0px;
+	}
+}
+
+.moving-down {
+	animation-name: downdown;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
