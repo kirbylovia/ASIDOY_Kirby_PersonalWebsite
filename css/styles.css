@@ -34,3 +34,10 @@
 	background: #fff;
 	color: #333;
 }*/
+
+.border-white-box {
+	border: solid 1px #fff;
+	background: transparent;
+	padding: 10px;
+	border-radius: 50%;
+}
