@@ -1,0 +1,36 @@
+.full-view-height {
+	height: 100vh;
+}
+
+.blur-bg {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	
+  -webkit-filter: blur(3px);
+  -moz-filter: blur(3px);
+  -o-filter: blur(3px);
+  -ms-filter: blur(3px);
+  filter: blur(3px);
+}
+
+.font-color-0 {
+	color: #fff;
+}
+
+.btn-1 {
+	box-sizing: border-box;
+	padding: 0 30px;
+	border: solid 2px #fff;
+	background: transparent;
+	text-transform: uppercase;
+	line-height: 38px;
+	color: #fff;
+	cursor: pointer;
+	transition: ease all 400ms;
+}
+/*
+.btn-1:hover {
+	background: #fff;
+	color: #333;
+}*/
