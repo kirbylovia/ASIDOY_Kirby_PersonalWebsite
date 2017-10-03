@@ -291,6 +291,10 @@ h6,
 
 
 /* ================================= */
+.uk-container {
+	padding-left: 40px;
+	padding-right: 40px;
+}
 .navbar-container {
 	background: #fff;
 	padding-left: 40px;
@@ -344,7 +348,8 @@ h6,
 
 
 #about,
-#hobbies{
+#hobbies,
+#gallery{
 	padding: 80px 50px;
 }
 .about-items {
@@ -405,6 +410,12 @@ h6,
 	margin-top: 10px;
 	transform: translateX(-50%);
 }
+
+.sm-icons {
+	float: right;
+	padding-top: 20px;
+}
+
 
 .font-color-1 {
 	color: rgba(0,0,0,0.5);
