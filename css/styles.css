@@ -349,7 +349,8 @@ h6,
 
 #about,
 #hobbies,
-#gallery{
+#gallery,
+#contact{
 	padding: 80px 50px;
 }
 .about-items {
@@ -441,6 +442,24 @@ h6,
 	width: 100%;
 }
 
+.contact-container {
+	background: #42c0fb;
+	padding: 30px 30px;
+	color: #fff;
+}
+.contact-container > form input,
+.contact-container > form textarea{
+	border: none;
+	background: #fff;
+	width: 100%;
+	padding: 10px 15px;
+	font-size: 16px;
+}
+textarea {
+	min-height: 250px;
+	resize: none;
+}
+
 
 .font-color-1 {
 	color: rgba(0,0,0,0.5);
@@ -451,6 +470,12 @@ h6,
 }
 .text-justify {
 	text-align: justify;
+}
+.text-italic {
+	font-style: italic;
+}
+.text-right {
+	text-align: right;
 }
 
 
