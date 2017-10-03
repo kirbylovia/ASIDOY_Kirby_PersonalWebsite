@@ -3,67 +3,64 @@
 <head>
 	<title>Kirbylovia</title>
 	<link rel=icon href=favicon.png sizes="16x16" type="image/png">
-	<link rel="stylesheet" type="text/css" href="css/uikit.css">
 	<link rel="stylesheet" type="text/css" href="css/styles.css"> </head>
 
 <body>
-	<div class="full-view-height" id="home">
+	<div class="full-view-height">
 		<div class="blur-bg" style="background-image:url(images/bg.jpg); background-size:cover; background-position:center; background-repeat:no-repeat"></div>
-		<div class="uk-position-center">
-			<div class="uk-flex uk-flex-middle">
-				<div class="uk-box-shadow-large uk-border-circle"> <img class="uk-border-circle uk-box-shadow-large" src="images/korby.jpg" alt="Korby" width="300px"> </div>
-				<div class="uk-text-center">
-					<h1 class="font-color-0 uk-margin-medium-left">Kirby Francisco Asidoy</h1>
-					<button class="btn-1 uk-margin-small-top">Stalk me PLEASE!</button>
-					<!--					<button class="uk-button uk-button-default">Stalk me PLEASE!</button>-->
-					<div class="uk-margin-medium-top">
-						<a href="#about" class="moving-down uk-display-inline-block" uk-scroll><img src="images/arrow-down.png" width="50px"></a>
+		
+		<div class="position-center">
+			<div class="home-items">
+				<div>
+					<img class="rounded" src="images/korby.jpg" width="300px">
+				</div>
+				<div class="margin-medium-left">
+					<h1 class="font-color-0">Kirby Francisco Asidoy</h1>
+					<div>
+						<button class="btn-1">STALK ME PLEASE!</button>
+						<br>
+						<img class="margin-medium-top moving-down" src="images/arrow-down.png" width="40px">
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div id="mainnavbar" class="uk-navbar-container uk-container uk-container-expand" uk-sticky>
-		<nav class="uk-navbar">
-			<div class="uk-navbar-left">
-				<a class="uk-navbar-item uk-logo" href="#home" uk-scroll><img src="images/fish.png" width="40px" class="uk-margin-small-right">Korby</a>
-			</div>
-			<div class="uk-navbar-right">
-				<ul class="uk-navbar-nav" uk-scrollspy-nav="closest: a; scroll:true">
-					<li><a href="#home">Home</a></li>
-					<li><a href="#about">About me</a></li>
-					<li><a href="#hobbies">Hobbies</a></li>
-					<li><a href="#">Contact</a></li>
-				</ul>
-			</div>
-		</nav>
+	
+	<!-- NAVBAR -->
+	<div class="row navbar-container">
+		<div class="navbar-left">
+			<a class="mylogo" href="#"><img class="margin-small-right" src="images/fish.png" width="45px">Korby</a>
+		</div>
+		<div class="navbar-right">
+			<ul class="navbar-nav">
+				<li>
+					<a href="#">Home</a>
+				</li>
+				<li>
+					<a href="#" class="active">About me</a>
+				</li>
+				<li>
+					<a href="#">Hobbies</a>
+				</li>
+				<li>
+					<a href="#">COntact</a>
+				</li>
+			</ul>
+		</div>
 	</div>
-	<div id="about" class="uk-padding bg-blue font-color-0">
-		<div class="uk-margin-large-top">
-			<div class="uk-flex uk-flex-middle uk-box-shadow-hover-large uk-margin-medium-bottom">
-				<div> <img src="images/kirby-fam.jpg"> </div>
-				<div class="uk-width-expand uk-margin-medium-left">
-					<p class="font-raleway">Good day , I'm Kirby F. Asidoy a 23 years old handsome boy currently studying at University of Southeastern Philippinees taking up Bachelor of Science in Information Technology. I was born on August 10 , 1994 by my beautiful mother Delia Francisco Asidoy and was supported by my very handsome father Nestor P. Asidoy. By the way , I am their one and only very handsome son.</p>
-				</div>
+	
+	<div id="about">
+		<div class="home-items">
+			<div>
+				<img class="full-width" src="images/kirby-fam.jpg">
+			</div>
+			<div class="margin-medium-left">
+				asda
 			</div>
 		</div>
 	</div>
-	<div id="hobbies" class="uk-padding">
-		<div class="uk-margin-large-top"> Hobbie </div>
-	</div>
-	<div class="footer">
-		<div class="uk-padding uk-position-relative">
-			<h5 class="uk-margin-remove font-color-0">Kirby &copy; 2017 | All rights reserved</h5>
-			<div class="uk-position-center-right uk-margin-medium-right">
-				<a href="" class="uk-icon-button uk-margin-small-right" uk-icon="icon: instagram"></a>
-				<a href="https://web.facebook.com/kirbylovia" target="_blank" class="uk-icon-button  uk-margin-small-right" uk-icon="icon: facebook"></a>
-				<a href="" class="uk-icon-button" uk-icon="icon: google-plus"></a>
-			</div>
-		</div>
-	</div>
+	
 	<script src="js/jquery.min.js"></script>
-	<script src="js/uikit.js"></script>
-	<script src="js/uikit-icons.js"></script>
 </body>
 
 </html>
