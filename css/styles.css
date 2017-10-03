@@ -343,7 +343,8 @@ h6,
 }
 
 
-#about {
+#about,
+#hobbies{
 	padding: 80px 50px;
 }
 .about-items {
@@ -360,6 +361,11 @@ h6,
 	width: 100%;
 	font-size: 1.2vw;
 	text-indent: 20px;
+}
+
+.card {
+	background: #fff;
+	padding: 10px;
 }
 
 
