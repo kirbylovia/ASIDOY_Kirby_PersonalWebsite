@@ -430,6 +430,12 @@ h6,
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
+	
+	transition: opacity ease 300ms;
+	cursor: pointer;
+}
+.gallery-img:hover {
+	opacity: 0.7;
 }
 .gallery-img img {
 	width: 100%;
