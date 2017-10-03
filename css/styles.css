@@ -368,6 +368,24 @@ h6,
 	padding: 10px;
 }
 
+.title-v1:before {
+	content: "";
+	display: inline-block;
+	vertical-align: middle;
+	width: 50px;
+	height: 2px;
+	margin-right: 10px;
+	background: #42c0fb;
+}
+.title-v1:after {
+	content: "";
+	display: inline-block;
+	vertical-align: middle;
+	width: 50px;
+	height: 2px;
+	margin-left: 10px;
+	background: #42c0fb;
+}
 
 .text-center {
 	text-align: center;
