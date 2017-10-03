@@ -416,6 +416,25 @@ h6,
 	padding-top: 20px;
 }
 
+.gallery-container {
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+.gallery-img {
+	float: left;
+	margin-top: 10px;
+	margin-right: 10px;
+	width: 32.5%;
+	height: 250px;
+	
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.gallery-img img {
+	width: 100%;
+}
+
 
 .font-color-1 {
 	color: rgba(0,0,0,0.5);
