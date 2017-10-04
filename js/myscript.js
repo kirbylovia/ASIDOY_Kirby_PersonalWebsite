@@ -45,7 +45,14 @@ $(function () {
 	});
 	
 	$('[scrollto]').click(function (e) {
-		alert('asd');
+		e.preventDefault();
+		
+		var href = $(this).attr('href');
+		$('html, body').animate({
+			scrollTop: $(href).offset().top-80
+		}, 500);
 	});
+	
+	
 	
 });
