@@ -12,6 +12,12 @@ function myFunction() {
   }
 }
 
+function smoothScroll(href) {
+	$('html, body').animate({
+		scrollTop: $(href).offset().top-80
+	}, 500);
+}
+
 
 $(function () {
 	
@@ -48,9 +54,7 @@ $(function () {
 		e.preventDefault();
 		
 		var href = $(this).attr('href');
-		$('html, body').animate({
-			scrollTop: $(href).offset().top-80
-		}, 500);
+		smoothScroll(href);
 	});
 	
 	
