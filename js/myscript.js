@@ -57,6 +57,11 @@ $(function () {
 		smoothScroll(href);
 	});
 	
+	$('a[href^="#"]').click(function (e) {
+		e.preventDefault();
+		smoothScroll($(this).attr('href'));
+	});
+	
 	
 	
 });
