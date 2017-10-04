@@ -1,3 +1,10 @@
+@font-face {
+	font-family: 'Montserrat';
+	src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+
+
 html, body {
     margin: 0;
     padding: 0;
@@ -326,6 +333,7 @@ h6,
 	color: rgba(0,0,0,0.3);
 	font-weight: 600;
 	font-size: 14px;
+	font-family: 'Montserrat';
 }
 .navbar-nav li a:hover,
 .navbar-nav li a.active {
