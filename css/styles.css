@@ -483,6 +483,14 @@ textarea {
 	text-align: right;
 }
 
+#home-img {
+	transition: all ease 300ms;
+}
+#home-img:hover {
+	-webkit-filter: grayscale(100%); 
+    filter: brightness(60%);
+}
+
 
 .sticky {
   position: fixed;
