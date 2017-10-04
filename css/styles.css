@@ -486,7 +486,9 @@ textarea {
 	box-sizing: border-box;
 }
 
-
+.sticky + div {
+  margin-top: 80px;
+}
 
 
 

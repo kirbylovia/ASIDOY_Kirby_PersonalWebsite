@@ -17,4 +17,35 @@ $(function () {
 	
 	'use strict';
 	
+	var navscroll = function () {
+		
+		var activeNav = "";
+		
+		$('[scrollto]').each(function () {
+			var id = $(this).attr('href'),
+				offset = $(id).offset();
+			
+			if(window.scrollY >= offset.top - 80) {
+				activeNav = id;
+			}
+		});
+		
+		$('[scrollto]').removeClass('active');
+		$('[scrollto]').each(function () {
+			if(activeNav == $(this).attr('href')) {
+				$(this).addClass('active');
+			}
+		});
+		
+	};
+	
+	$(window).on('scroll', function() {
+		myFunction();
+		navscroll();
+	});
+	
+	$('[scrollto]').click(function (e) {
+		alert('asd');
+	});
+	
 });
