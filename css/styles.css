@@ -435,11 +435,9 @@ h6,
 	transition: opacity ease 300ms;
 	cursor: pointer;
 }
-/*
 .gallery-img:hover {
 	opacity: 0.7;
 }
-*/
 .gallery-img img {
 	width: 100%;
 }
